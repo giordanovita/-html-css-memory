@@ -15,35 +15,30 @@ body{
 
 /* regole header */
 
+.title{
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight: bold;
+
+
+}
 
 
 
 
-
-/* regole section */
+/* regole per tutte le section */
 
 .card{
   width: 150px;
   height: 170px;
-  display: inline-block;
   background-color: white;
+  display: inline-block;
   border: 1px solid black;
   border-radius: 10px;
   margin: 15px 10px;
   position: relative;
 }
 
-.card1{
-  width: 150px;
-  height: 170px;
-  background-color:white;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 15px 10px;
-  position: relative;
- }
 
 
  .picture{
@@ -57,10 +52,36 @@ body{
    display: block;
    font-size: 20px;
    font-weight: bold;
-   color: #E52089;
+
   }
 
-  /* .cover{
+  #ball, #ball1{
+    color: #E52089;
+  }
+
+  #bic, #bic1{
+    color:#1EFF37
+  }
+
+  #tram, #tram1{
+    color:#4070FF;
+  }
+
+  #trac, #trac1{
+    color:#FF8F35;
+  }
+
+  #sub, #sub1{
+    color: #FF4B4B;
+  }
+
+  #cru, #cru1{
+    color: #B08CFF;
+  }
+
+
+
+   .cover{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -69,4 +90,15 @@ body{
     object-fit: cover;
     border-radius: 10px;
 
-  } */
+  }
+
+  .cover:hover{
+    display: none;
+  }
+
+  /* regole footer */
+  .foot{
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 25px;
+    }
